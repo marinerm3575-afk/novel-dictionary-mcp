@@ -1,0 +1,14 @@
+{
+  "name": "novel-dictionary-mcp-remote",
+  "version": "1.0.0",
+  "description": "小説執筆用辞書 リモートMCPサーバー",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "express": "^4.21.0",
+    "zod": "^3.24.0"
+  }
+}
